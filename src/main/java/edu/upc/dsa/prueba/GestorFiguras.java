@@ -1,6 +1,6 @@
 package edu.upc.dsa.prueba;
 
-public class GestorFiguras
+public interface GestorFiguras
 {
     public static double sum (Figura[] l)
     {
@@ -12,4 +12,6 @@ public class GestorFiguras
         }
         return ret;
     }
+
+
 }

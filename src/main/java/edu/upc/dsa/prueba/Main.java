@@ -12,7 +12,11 @@ public class Main {
         Figura triangle = new Triangle(3,6);
 
         Figura [] l = {triangle, cercle, rectangle, cercle, square, cercle};
-        System.out.println(GestorFiguras.sum(l));
+        System.out.println("Area Círculo:" + cercle.area());
+        System.out.println("Area Cuadrado:" + square.area());
+        System.out.println("Area Rectangulo:" + rectangle.area());
+        System.out.println("Area Triángulo:" + triangle.area());
+        System.out.println("Suma de áreas del vector:" + GestorFiguras.sum(l));
 
     }
 }

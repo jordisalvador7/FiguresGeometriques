@@ -22,7 +22,7 @@ public class Square extends Rectangle
 
     public double area()
     {
-        return l;
+        return l*l;
     }
 
 
