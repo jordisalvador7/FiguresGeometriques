@@ -32,8 +32,7 @@ public class Triangle extends Figura
     }
 
     @Override
-    public double area()
-    {
+    public double area() {
         return (b*h)/2;
     }
 }
